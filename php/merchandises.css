@@ -1,0 +1,358 @@
+body{
+	margin:  0 auto;
+	background: #F0F0F0;
+}
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration:none;
+}
+header{
+	background: #FF6070;
+}
+.header{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	Justify-content: space-between;
+}
+.logo{
+	margin: 20px 0;
+	height: 90px;
+	transition:0.3s;
+}
+.logo:hover{
+	transform:scale(1.05);
+}
+.search{
+	height: 50px;
+	width: 600px;
+	background: white;
+	padding: 5px;
+	display: flex;
+	border-radius: 10px;
+}
+.search_text{
+	width: 85%;
+	height: 90%;
+	outline: none;
+	border: none;
+	font-size: 20px;
+}
+.search_button{
+	width: 15%;
+	height: 100%;
+	border: none;
+	background: #FF6070;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
+.search_button:hover{
+	opacity:0.8;
+}
+.link{
+	margin: 10px;
+	text-align: center;
+	transition:0.3s;
+}
+.link:hover{
+	transform:scale(1.05);
+}
+.icon{
+	height: 40px;
+}
+.link_text{
+	color: white;
+	font-size: 15px;
+}
+.form-control{
+	border-radius: 2px;
+	outline: none;
+	padding-left: 15px;
+	border: none;
+	height: 40px;
+	
+}
+#button-addon2{
+	background: #FF6070;
+	/*background: #d0011b;*/
+	margin-top: 2px;
+	color: white;
+	outline: none;
+	width: 60px;
+	height: 36px;
+}
+/*搜尋button的div-class*/
+.s{
+	height: 40px;
+	width: 65px;
+	background: white;
+	border-radius: 2px;
+}
+.headwright-logo{
+	width: 60px;
+	/*background: red;*/
+}
+#hshopping-cart{
+	margin-left: 20px;
+	margin-top: 28px;
+}
+#cart-a{
+	color: white;
+}
+#sec-main{
+	margin-top: 50px;
+	height: 600px;
+	background: #F0F0F0;
+}
+.main-container{
+	height: 600px;
+	background: #F0F0F0;
+}
+.subcontainer{
+	display: flex;
+	margin: 0 auto;
+	padding: 30px;
+	width: 80%;
+	height: 550px;
+	background: #fff;
+}
+.sub-left{
+	/*background: green;*/
+	float: left;
+	width: 40%;
+}
+.sub-right{
+	/*background: yellow;*/
+	float: right;
+	width: 60%;
+}
+.subleft-con{
+
+	margin: 0 auto;
+	width: 92%;
+	height: 600px;
+	/*background: red;*/
+}
+.subleftcon-up{
+	height: 447px;
+	background: white;
+	margin-top: 16px;
+	/*background: blue;*/
+}
+.subdown1{
+	/*background-image: url("https://cf.shopee.tw/file/148b42591652bb2d97e05d01308e9703_tn");*/
+	/*background-size: contain;*/
+	margin-right: 8px;
+	height: 82px;
+	width: 92px;
+	border: 1px solid red;
+}
+span{
+	margin-top: 450px;
+}
+.subright-con{
+	margin: 0 auto;
+	width: 92%;
+	height: 600px;
+	/*background: green;*/
+}
+.subrightcon-1{
+	height: 70px;
+	margin-top: 15px;
+}
+.subrightcon-2{
+	display: flex;
+	height: 40px;
+}
+.subrightcon2-3{
+    margin-top: 7px;
+	width: 105px;
+}
+.subrightcon-3{
+	background-color: #f6f6f6;
+	display: flex;
+	height: 95px;
+}
+#subh2{
+	margin-top: 25px;
+}
+.subrightcon-4{
+	display: flex;
+	height: 110px;
+	/*background: #f66464;*/
+}
+.subcon4-left{
+	width: 20%;
+	font-size: 20px;
+	padding: 30px 10px;
+}
+.subcon4-right{
+	width: 80%;
+	padding: 30px 10px;
+}
+.subright4down{
+	/*color: white;*/
+	margin-top: 25px;
+}
+.subcon5-btn1{
+	margin-left: 5px;
+	width: 80px;
+	height: 34px;
+	border-radius: 2px;
+	background: white;
+	border:1px solid gray;
+	color: black;
+}
+.subcon5-btn1:hover{
+	color: white;
+	background: red;
+}
+.subrightcon-6{
+	display: flex;
+	height: 80px;
+}
+
+button{
+
+	background: white;
+	color: gray;
+	outline: none;
+	border: 1px solid;
+	width: 30px;
+	height: 31px;
+}
+.subcon6-left{
+	width: 20%;
+	font-size: 20px;
+	padding: 0px 10px;
+}
+.subcon6-right{
+	width: 80%;
+	display: flex;
+	padding: 0px 10px;
+}
+.subcon6-div{
+	display: flex;
+	width: 115px;
+}
+.subcon6-btn1{
+	height: 30px;
+	width: 30px;
+	background: white;
+	border:1px solid gray;
+}
+.subcon6-inp{
+	text-align: center;
+	height: 25px;
+	opacity:0.8;width: 50px;
+	outline: none;
+}
+.subrightcon-7{
+	height: 45px;
+}
+.subcon7-btn1{
+	margin-right: 15px;
+	color: red;
+	height: 45px;
+	width: 170px;
+	border-radius: 2px;
+	border:1px solid #FF6070;
+}
+.subcon7-btn2{
+	background: #FF6070;
+	color: white;
+	margin-right: 15px;
+	height: 45px;
+	width: 170px;
+	border-radius: 2px;
+}
+.subcon7-btn1:hover{
+	color: white;
+	background: #FF6070;
+}
+.subcon7-btn2:hover{
+	opacity:0.8;
+}
+#sec-two{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	background: white;
+}
+.sectwo-left{
+	width: 100%;
+	background: white;
+	padding: 20px;
+}
+.sectwoleft-con{
+	margin: 0 auto;
+	width: 92%;
+}
+.sectwoleft-des{
+	margin: 0 auto;
+	background: #f6f6f6;
+	margin-top: 30px;
+}
+#des-h4{
+	padding-top: 10px;
+	text-align: center;
+}
+#des1-h4{
+	padding-top: 10px;
+	text-align: center;
+}
+#stwp{
+	margin-top: 10px;
+	text-align: center;
+}
+.sectworef{
+	height: 310px;
+	background: gray;
+	margin-top: 5px;
+}
+/*--------------radio 選擇規格 button---------------*/
+input[type="radio"]{
+	display: none;
+}
+label{
+	color: black;
+	font-size:15px;
+	margin-right: 5px;
+	border: 2px solid pink;
+	border-radius: 3px;
+	align-items: center;
+	text-align: center;
+	max-width: 300px;
+	min-width: 50px;
+	padding: 5px;
+	height: 34px;
+	cursor: pointer;
+}
+label:hover{
+	color: #01cc65;
+	border: 2px solid #01cc65;
+}
+label:before{
+	content: "";
+	width: 30px;
+	height: 20px;
+	/*border: 1px solid;*/
+}
+input[type="radio"]:checked +label{
+	background: #01cc65;
+	color: white;
+	border: 2px solid #01cc65;
+}
+footer{
+	background: #555;
+	color:white;
+	text-align:center;
+	text-valign:center;
+	margin-top:30px;
+	padding:20px;
+}

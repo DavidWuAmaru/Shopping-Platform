@@ -1,0 +1,153 @@
+body{
+	margin: 0px;
+}
+header{
+	background: white;
+}
+.header{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	margin: 20px 0;
+	height: 90px;
+	transition:0.3s;
+}
+.logo:hover{
+	transform:scale(1.05);
+}
+.background{
+	width:100%;
+}
+.signin{
+	position: absolute;
+	top: 220px;
+	right: 300px;
+	background: white;
+	padding: 25px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px #555;
+	width: 300px;
+}
+.title{
+	display: flex;
+	Justify-content: space-between;
+}
+.text{
+	font-size: 30px;
+	margin: 0px 0px 10px 0px;
+}
+.fail{
+	width: 60%;
+	height: 20px;
+	font-size: 15px;
+	padding: 10px;
+	margin: 0px 0px 15px 0px;
+	background: #ffe0e0;
+	border-radius: 5px;
+	border:1px #FF6070 solid;
+	display: flex;
+	align-items: center;
+}
+.notice{
+	height: 100%;
+	margin: 0px 10px 0px 0px;
+}
+.account{
+	width: calc(100% - 22px);
+	font-size: 15px;
+	margin: 15px 0px;
+	padding: 10px;
+	border:1px #a0a0a0 solid;
+	border-radius: 5px;
+}
+.password{
+	width: calc(100% - 22px);
+	font-size: 15px;
+	margin: 15px 0px;
+	padding: 10px;
+	border:1px #a0a0a0 solid;
+	border-radius: 5px;
+}
+.enter{
+	width: 100%;
+	font-size: 15px;
+	height: 35px;
+	margin: 15px 0px;
+	background: #FF6070;
+	border: none;
+	color: white;
+	border-radius: 5px;
+}
+.register{
+	text-decoration:none;
+	color: #a0a0a0;
+}
+footer{
+	background: #555;
+	color:white;
+	text-align:center;
+	text-valign:center;
+	margin-top:30px;
+	padding:20px;
+}
+
+.row input:valid+.ok{
+	display: inline;
+}
+.row input:invalid+.ok{
+	display: none;
+}
+.row{
+	display: flex;
+	margin: 10px 0px;
+}
+.item{
+	width: 20%;
+	font-size: 20px;
+	color: #a0a0a0;
+}
+.data{
+	width: 70%;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 5px;
+	border:1px #a0a0a0 solid;
+}
+.button{
+	width: 100%;
+	font-size: 15px;
+	height: 35px;
+	margin: 5px 0px;
+	background: #FF6070;
+	border: none;
+	color: white;
+	border-radius: 5px;
+}
+.ok{
+	padding: 3px;
+	width: 5%;
+}
+.ok img{
+	width: 100%;
+}
+.icon{
+	width: 50%;
+	margin: 20px auto;
+}
+.icon img{
+	width: 100%;
+}
+.notice_text{
+	font-size: 30px;
+	text-align:center;
+	margin: 10px auto;
+}
+.jump{
+	font-size: 20px;
+	text-align:center;
+	margin: 10px auto;
+	color: #a0a0a0;
+}
